@@ -1,0 +1,15 @@
+int x;
+procedure recursive();
+  begin
+    x := x - 1;
+    if x > 0 then
+    begin
+      call recursive();
+    end;
+  end;
+
+begin
+  x := 3;
+  call recursive();
+end.
+

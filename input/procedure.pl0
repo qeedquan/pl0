@@ -1,0 +1,24 @@
+procedure sub(int a, int b, int c, int d, int e) (int ret);
+  const k = 7;
+  int j,h;
+  begin
+    ret:=c*c;
+    write a;
+    write b;
+    write c;
+    write ret;
+    j := ret;
+    h := j;
+    write j;
+    write h;
+  end;
+procedure add(int a, int b, int c);
+    begin
+	write a+b+c;
+    end;
+
+begin
+  call sub(10*2, 10*3, 10*4, 10*5, 10*6);
+  call add(1, 2, 3);
+end.
+

@@ -1,0 +1,10 @@
+int a, b, c;
+begin
+	a := 3;
+	b := 10;
+	if a <= b then
+                a := c + 1;
+                if a = c then
+                    b := 50
+end.
+

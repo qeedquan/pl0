@@ -1,0 +1,5 @@
+/* test for redeclared variables with passed arguments */
+procedure a(int c);
+    int c;
+    begin
+    end.

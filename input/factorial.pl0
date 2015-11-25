@@ -1,0 +1,25 @@
+int a, c;
+procedure factorial(int n);
+  begin
+	while c <= n do
+		begin
+			a:=a*c;
+			c:=c+1;
+		end;
+	write a;
+  end;
+procedure foo(int b);
+begin
+    write b;
+end;
+
+begin
+	a := 1;
+	c := 2;
+	call factorial(3);
+	call factorial(4);
+	call factorial(5);
+	call factorial(10);
+	call foo(20+40);
+end.
+

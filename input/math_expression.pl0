@@ -1,0 +1,9 @@
+const z = 15;
+int x, y, mississippi;
+begin
+	x := 2 * 2;
+	y := x - 1;
+	x := x / 2;
+	y := (z + 1) / (8 * 2);
+end.
+

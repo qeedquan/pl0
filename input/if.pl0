@@ -1,0 +1,13 @@
+int a, b;
+begin
+    a := 10;
+    if a < 40 then
+        a := 100;
+    
+    if a < 60 then
+        a := 200;
+
+    b := 20;
+
+end.
+    

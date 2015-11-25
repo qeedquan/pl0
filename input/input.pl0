@@ -1,0 +1,13 @@
+const n = 13;
+int i,h;
+procedure sub();
+    const k = 7;
+    int j,h;
+    begin
+          j:=n;
+	      i:=1;
+	          h:=k;
+		    end;
+		    begin
+		      i:=3; h:=0;
+		      end.

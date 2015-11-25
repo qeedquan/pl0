@@ -1,0 +1,15 @@
+To run the program, build it first by running "sh build.sh"
+it should make a program called pl0, you can do
+
+./pl0 source-file to run a source file or
+
+./pl0 -p instruction-file to run it as a instruction file
+
+I made some sample inputs in input/ that you can run it on, if there is 
+any bugs you find, let me know and I will try to fix them.
+
+This pl0 has a fixed stack and fix code buffer, so any very long program
+or something that uses too much stack will error. You can adjust accordingly
+in dat.h, though the problem is of that compiler will get errors if you make
+the global types too big. The right fix is to dynamic allocate memory for
+these structures but this is a toy so who cares.

@@ -1,0 +1,44 @@
+int x,y,z,v,w;
+
+procedure a();
+    int x,y,u,v;
+    procedure b();
+
+        int y,z,v;
+	procedure K(int x, int y, int z);
+	begin
+	    write x;
+	    write y;
+	    write z;
+	end;
+
+        procedure c(int a);
+
+            int y,z;
+            begin
+                z:=1;
+                x:=y+z+w;
+		write a;
+            end;
+
+        begin
+	    y:=12+10;
+            call c(y);
+	    call K(y+1, y+2, y+3);
+        end;
+
+    begin
+        z:=2;
+        u:=z+w;
+        call b();
+    end;
+
+begin
+    x:=1;
+    y:=2;
+    z:=3;
+    v:=4;
+    w:=5;
+    x:=v+w;
+    call a();
+end.

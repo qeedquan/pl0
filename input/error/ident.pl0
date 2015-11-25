@@ -1,0 +1,3 @@
+/* test identifier too long */
+const aaaaaaaaaaaaaaaaaaaaaaaaaa;
+int b;

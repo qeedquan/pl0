@@ -1,0 +1,11 @@
+int x, y, z;
+begin
+	read x;
+	y := 100;
+	if x < y then
+		z := 11;
+	else
+		z := 9999;
+	write z;
+end.
+

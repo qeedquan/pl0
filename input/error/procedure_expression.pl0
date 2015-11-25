@@ -1,0 +1,6 @@
+/* use of procedure as an expression */
+int b;
+procedure a();
+begin
+    b := a+2;
+end.

@@ -1,0 +1,8 @@
+int x;
+begin
+    x := 10;
+    while x > 8 do
+        begin
+            x := 9;
+        end;
+end.

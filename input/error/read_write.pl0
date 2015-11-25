@@ -1,0 +1,13 @@
+/* test reading into a non integer */
+const g = 15;
+int x, y, z;
+begin
+	read g;
+	y := 100;
+	if x < y then
+		z := 11;
+	else
+		z := 9999;
+	write z;
+end.
+

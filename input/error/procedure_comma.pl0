@@ -1,0 +1,4 @@
+/* tests for procedure Foo(int a, int b,); <- dangling comma */
+procedure a(int c,);
+begin
+end.

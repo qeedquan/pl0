@@ -1,0 +1,15 @@
+/* test for using := in condition */
+int a, b, c;
+begin
+	a := 3;
+	b := 10;
+	if a < b then
+		c := a + b;
+	while a := b do
+		begin
+			a := a + 1;
+			c := c + 3;
+		end;
+	c := a;
+end.
+

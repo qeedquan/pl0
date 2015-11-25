@@ -1,0 +1,18 @@
+int v;
+procedure fact(int n) (int ret);
+	begin
+	    if n > 1 then
+	    begin
+		call fact(n-1);
+	    end;
+
+	    v := v*n;
+	    ret := v;
+	    write ret;
+	end;
+
+begin
+	v := 1;
+	call fact(5);
+end.
+

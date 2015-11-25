@@ -1,0 +1,12 @@
+int a;
+begin
+    if odd 1 then
+        a := 10;
+
+    if odd 2 then
+        a := 100;
+
+    if odd 1 + 200 then
+        a := 200;
+
+end.

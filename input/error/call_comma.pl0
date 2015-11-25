@@ -1,0 +1,9 @@
+/* test out calls */
+procedure foo(int a, int b);
+    begin
+	write a;
+    end;
+
+begin
+    call foo(,);
+end.

@@ -1,0 +1,4 @@
+/* test writing expressions */
+begin
+    write 1+2*3+(5*9)+10;
+end.

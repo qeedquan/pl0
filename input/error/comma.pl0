@@ -1,0 +1,6 @@
+/* test missing comma */
+const a b;
+int c, d;
+begin
+    ;
+end.

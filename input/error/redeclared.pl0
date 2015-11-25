@@ -1,0 +1,6 @@
+/* test for redeclared variables */
+int a;
+procedure a();
+begin
+    a := 10;
+end.
