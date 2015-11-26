@@ -450,6 +450,9 @@ static int printlexemes(int symbolicrep)
         if (tp->type == errorsym)
             rc = -1;
 
+        if (!verbose)
+            continue;
+
         if (symbolicrep == 0)
             printf("%d ", tp->type);
         else
@@ -458,7 +461,8 @@ static int printlexemes(int symbolicrep)
         if (tp->type == identsym || tp->type == numbersym)
             printf("%s ", tp->symb);
     }
-    printf("\n\n");
+    if (verbose)
+        printf("\n\n");
 
     return rc;
 }
@@ -491,12 +495,11 @@ int tokenize(char *f)
     }
 
     if (verbose)
-    {
         printf("\nLexeme List:\n");
-        printlexemes(0);
+    printlexemes(0);
+    if (verbose)
         printf("Symbolic Representation:\n");
-        rc = printlexemes(1);
-    }
+    rc = printlexemes(1);
     lp = list;
 
     return rc;
